@@ -1,0 +1,122 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f6f6f6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Main content styles */
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  
+  .contact-info {
+    margin-top: 50px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    margin-top: 50px;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .skills ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .skills li {
+    margin-bottom: 10px;
+  }
+  
+  .experience {
+    margin-top: 50px;
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .experience h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .experience p {
+    margin-bottom: 10px;
+  }
+  
+  .experience ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .experience li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    
+    .contact-info h2,
+    .skills h2,
+    .experience h2 {
+      font-size: 1.5rem;
+    }
+    
+    .experience h3 {
+      font-size: 1.25rem;
+    }
+  }
+  
